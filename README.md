@@ -3,6 +3,8 @@
 
 We are building a dapp that allows users to store medical records electronically using blockchain. We have used ethereum and IPFS, which enables storing medical records in a decentralized way while keeping the medical redords secure.
 
+The user enters an image of the medical record which gets stored in IPFS which returns a hash code which is then stored on the etherium blockchain. 
+
 
 ## usage 
 
