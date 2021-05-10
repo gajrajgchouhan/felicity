@@ -10,6 +10,8 @@ The purpose of our project is to have decentralised, transferrable and immutable
 
 ## Usage 
 
+The current usage is quite basic, the user logs into their account and can enter a new medical record or view their previous medical records. 
+
 **Home page**
 
 The home page is an interface that allows the user to login using their credentials. 
