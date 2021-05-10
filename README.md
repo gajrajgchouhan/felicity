@@ -25,9 +25,9 @@ Our code can be run in the following steps:
 
 ## Tech Stack
 
--Solidity Smart Contracts
--IPFS for storing image data 
--Truffle and Ganache for our development and testing framework
--React / Redux / Bootstrap for our front-end development
--MetaMask for our web3 provider
+- Solidity Smart Contracts
+- IPFS for storing image data 
+- Truffle and Ganache for our development and testing framework
+- React / Redux / Bootstrap for our front-end development
+- MetaMask for our web3 provider
 
