@@ -20,7 +20,7 @@ The home page is an interface that allows the user to login using their credenti
 
 **Upload Page**
 
-This page allows the user to upload images of their medical records so that it can be refered to in the future by medical professionals. 
+This page allows the user to upload images of their medical records which can be referred to in the future by medical professionals. 
 
 <img width="1424" alt="Screenshot 2" src="https://user-images.githubusercontent.com/54476239/117743408-69e34180-b224-11eb-868f-d7b06fcfaa89.png">
 
@@ -28,7 +28,7 @@ This page allows the user to upload images of their medical records so that it c
 ## Prerequisites
 
 1.  You will need [Metamask](https://metamask.io/) plugin for Chrome.
-2.  Make sure you have [Node.js](https://nodejs.org/en/) installed!
+2.  Make sure you have [Node.js](https://nodejs.org/en/) installed.
 
 ## Installation and Execution
 
@@ -88,7 +88,7 @@ This page allows the user to upload images of their medical records so that it c
 - Solidity Smart Contracts
 - IPFS for storing image data via Infura
 - Truffle and Ganache for our development and testing framework
-- React / Redux / Bootstrap 4 for our front-end development
+- HTML5/ CSS3/ React / Redux / Bootstrap 4 for our front-end development
 - MetaMask for our web3 provider
 
 ## Authors
