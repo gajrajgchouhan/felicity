@@ -1,7 +1,7 @@
 # felicity -- medicine made easy
 ## Overview 
 
-We are building a DApp that allows users to store medical records electronically using blockchain. We have used <b>Ethereum</b> and <b>IPFS</b>, which enables storing medical records in a decentralized way, keeping the medical redords secure!
+We are building a DApp that allows users to store medical records electronically using blockchain. We have used <b>Ethereum</b> and <b>IPFS</b>, which enables storing medical records in a decentralized way, keeping the medical records secure!
 
 The user enters an image of the medical record which gets stored in IPFS. This returns a hash code which is then stored on the Ethereum blockchain. 
 
