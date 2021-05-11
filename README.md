@@ -30,7 +30,7 @@ This page allows the user to upload images of their medical records so that it c
 1.  You will need [Metamask](https://metamask.io/) plugin for Chrome.
 2.  Make sure you have [Node.js](https://nodejs.org/en/) installed!
 
-## Installation
+## Installation and Execution
 
 1.  Install [Truffle Framework](http://truffleframework.com/) and [Ganache (gaphical version)](http://truffleframework.com/ganache/) globally.
 
