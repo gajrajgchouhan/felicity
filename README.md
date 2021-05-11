@@ -88,7 +88,8 @@ This page allows the user to upload images of their medical records which can be
 - Solidity Smart Contracts
 - IPFS for storing image data via Infura
 - Truffle and Ganache for our development and testing framework
-- HTML5/ CSS3/ React / Redux / Bootstrap 4 for our front-end development
+- HTML5 / CSS3 / React / Redux / Bootstrap 4 for our front-end development
+- Ethereum blockchain acts as our back-end storage
 - MetaMask for our web3 provider
 
 ## Authors
