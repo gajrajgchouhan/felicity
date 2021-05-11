@@ -1,11 +1,16 @@
 # felicity -- medicine made easy
 ## Overview 
 
-We are building a dapp that allows users to store medical records electronically using blockchain. We have used ethereum and IPFS, which enables storing medical records in a decentralized way while keeping the medical redords secure.
+We are building a DApp that allows users to store medical records electronically using blockchain. We have used <b>Ethereum</b> and <b>IPFS</b>, which enables storing medical records in a decentralized way while keeping the medical redords secure.
+
+The user enters an image of the medical record which gets stored in IPFS which returns a hash code which is then stored on the ethereum blockchain. 
+
+The purpose of our project is to have decentralised, transferrable and immutable medical records. 
 
 <img width="1440" alt="Screenshot 2021-05-11 at 7 26 10 AM" src="https://user-images.githubusercontent.com/54476239/117746511-2ab7ef00-b22a-11eb-8f27-15a9fa2c9451.png">
 
 ## Usage 
+The current usage is quite basic, the user logs into their account and can enter a new medical record or view their previous medical records. 
 
 **Home Page**
 
@@ -85,4 +90,7 @@ This page allows the user to upload images of their medical records so that it c
 - Truffle and Ganache for our development and testing framework
 - React / Redux / Bootstrap 4 for our front-end development
 - MetaMask for our web3 provider
+
+## Authors
+[Deepali Singh](https://github.com/deepalisingh11), [Aarushi Gajri](https://github.com/aprilerflows), and [Muskan Yadav](https://github.com/musk4n)
 
