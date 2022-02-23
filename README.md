@@ -1,29 +1,30 @@
 # felicity -- medicine made easy
-## Overview 
+
+## Overview
 
 We are building a DApp that allows users to store medical records electronically using blockchain. We have used <b>Ethereum</b> and <b>IPFS</b>, which enables storing medical records in a decentralized way, keeping the medical records secure!
 
-The user enters an image of the medical record which gets stored in IPFS. This returns a hash code which is then stored on the Ethereum blockchain. 
+The user enters an image of the medical record which gets stored in IPFS. This returns a hash code which is then stored on the Ethereum blockchain.
 
-The purpose of our project is to have decentralised, transferrable and immutable medical records. 
+The purpose of our project is to have decentralised, transferrable and immutable medical records.
 
 <img width="1440" alt="Screenshot 2021-05-11 at 7 26 10 AM" src="https://user-images.githubusercontent.com/54476239/117746511-2ab7ef00-b22a-11eb-8f27-15a9fa2c9451.png">
 
-## Usage 
-The current usage is quite basic, the user logs into their account and can enter a new medical record or view their previous medical records. 
+## Usage
+
+The current usage is quite basic, the user logs into their account and can enter a new medical record or view their previous medical records.
 
 **Home Page**
 
-The home page is an interface that allows the user to login using their credentials. 
+The home page is an interface that allows the user to login using their credentials.
 
 <img width="1440" alt="Screenshot 1" src="https://user-images.githubusercontent.com/54476239/117743189-f04b5380-b223-11eb-80fa-cf95ecd9de60.png">
 
 **Upload Page**
 
-This page allows the user to upload images of their medical records which can be referred to in the future by medical professionals. 
+This page allows the user to upload images of their medical records which can be referred to in the future by medical professionals.
 
 <img width="1424" alt="Screenshot 2" src="https://user-images.githubusercontent.com/54476239/117743408-69e34180-b224-11eb-868f-d7b06fcfaa89.png">
-
 
 ## Prerequisites
 
@@ -63,12 +64,13 @@ This page allows the user to upload images of their medical records which can be
     ./node_modules/.bin/truffle migrate
     ./node_modules/.bin/truffle test
     ```
-     
+
      <img width="1364" alt="Screenshot 4" src="https://user-images.githubusercontent.com/54476239/117745998-36ef7c80-b229-11eb-9462-ed2e6b79f058.png">
 
 5.  Start the application
 
     ```bash
+    export NODE_OPTIONS=--openssl-legacy-provider
     npm run start
     ```
 
@@ -77,21 +79,19 @@ This page allows the user to upload images of their medical records which can be
 7.  Remember to connect [MetaMask](https://metamask.io/) to one of your local Ganache Ethereum accounts.
 
     <img width="316" alt="Screenshot 5" src="https://user-images.githubusercontent.com/54476239/117746417-09ef9980-b22a-11eb-8226-89831df6c242.png">
- 
-    - Create and connect to a custom RPC network using the Ganache RPC server (currently `http://127.0.0.1:7545`), then
-    - Import a new account and use the account seed phrase provided by Ganache
-    
-    
+
+    -   Create and connect to a custom RPC network using the Ganache RPC server (currently `http://127.0.0.1:7545`), then
+    -   Import a new account and use the account seed phrase provided by Ganache
 
 ## Tech Stack
 
-- Solidity Smart Contracts
-- IPFS for storing image data via Infura
-- Truffle and Ganache for our development and testing framework
-- HTML5 / CSS3 / React / Redux / Bootstrap 4 for our front-end development
-- Ethereum blockchain acts as our back-end storage
-- MetaMask for our web3 provider
+-   Solidity Smart Contracts
+-   IPFS for storing image data via Infura
+-   Truffle and Ganache for our development and testing framework
+-   HTML5 / CSS3 / React / Redux / Bootstrap 4 for our front-end development
+-   Ethereum blockchain acts as our back-end storage
+-   MetaMask for our web3 provider
 
 ## Authors
-[Deepali Singh](https://github.com/deepalisingh11), [Aarushi Gajri](https://github.com/aprilerflows), and [Muskan Yadav](https://github.com/musk4n)
 
+[Deepali Singh](https://github.com/deepalisingh11), [Aarushi Gajri](https://github.com/aprilerflows), and [Muskan Yadav](https://github.com/musk4n)
